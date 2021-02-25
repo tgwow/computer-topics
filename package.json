@@ -1,0 +1,23 @@
+{
+  "name": "computer-topics",
+  "version": "1.0.0",
+  "description": "This repo will be used to organize exercises of the Computer Topics classes for the 6th period of the Systems and Analysis Development course.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tgwow/computer-topics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tgwow/computer-topics/issues"
+  },
+  "homepage": "https://github.com/tgwow/computer-topics#readme",
+  "devDependencies": {
+    "jest": "^26.6.3"
+  }
+}
