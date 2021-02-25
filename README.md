@@ -13,7 +13,6 @@ Gives these classes, implements the following unit tests:
 
 ***IMCCalculadora.java***
 ```java
-IMCCalculadora.java
 public class IMCCalculadora {
 
     public IMCStatus calcular(Pessoa p) {
@@ -43,7 +42,6 @@ public class IMCCalculadora {
 ***Pessoa.java***
 ```java
 public class Pessoa {
-
     String nome;
     double peso, altura;
     
@@ -60,7 +58,6 @@ public class Pessoa {
 ***IMCStatus.java***
 ```java
 public class IMCStatus {
-
     double imc;
     String classificacao;
     
