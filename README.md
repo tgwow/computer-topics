@@ -1,57 +1,57 @@
 # Unit test with JEST and NODE.
 
-This branch will solve one of the exercises passed by teacher.
+This branch will solve one of the exercises passed by the professor.
 
-## Exercise
+## Exercise 02
 
-Gives these classes, implements the following unit tests:
-+ Throw exception when weigh or height is < 0
-+ classificacao must be "abaixo do peso" when imc < 18.5
-+ classificacao must be "normal" when imc < 25
-+ classificacao must be "acima do peso" when imc < 30
-+ classificacao must be "obeso" when imc >= 30
+Gives these classes, you should convert this code to [nodejs](https://nodejs.org/en/) and then write the following unit tests:
++ It should return an exception "Invalid arguments" when user does not provide positive values for height or weight.
++ classification must be "under weight" when imc was smaller than 18.5
++ classification must be "normal" when imc was smaller than 25.
++ classification must be "over weight" when imc was smaller than 30.
++ classification must be "obese" when imc was larger than 30.
 
-***IMCCalculadora.java***
+***IMCCalculator.java***
 ```java
-public class IMCCalculadora {
+public class IMCCalculator {
 
-    public IMCStatus calcular(Pessoa p) {
-        double peso = p.getPeso();
-        double altura = p.getAltura();
+    public IMCStatus calculate(Person p) {
+        double weight = p.getPeso();
+        double height = p.getAltura();
         
-        if(peso <= 0 || altura <= 0)
+        if(weight <= 0 || height <= 0)
             throw new IllegalArgumentException();
         
-        double imc = peso / (altura * altura);
-        String classificacao = "";
+        double imc = weight / (height * height);
+        String classification = "";
         
         if(imc < 18.5)
-            classificacao = "abaixo do peso";
+            classification = "under weight";
         else if(imc < 25)
-            classificacao = "normal";
+            classification = "normal";
         else if(imc < 30)
-            classificacao = "acima do peso";
+            classification = "over weight";
         else
-            classificacao = "obeso";
+            classification = "obese";
         
-        return new IMCStatus(imc, classificacao);
+        return new IMCStatus(imc, classification);
     }
 }
 ```
 
-***Pessoa.java***
+***Person.java***
 ```java
-public class Pessoa {
-    String nome;
-    double peso, altura;
+public class Person {
+    String name;
+    double weight, height;
     
-    public Pessoa(String nome, double peso, double altura) {
-        this.nome = nome;
-        this.peso = peso;
-        this.altura = altura;
+    public Person(String name, double weight, double height) {
+        this.name = name;
+        this.weight = weight;
+        this.height = height;
     }
 
-    //incluir getters
+    // include getters
 }
 ```
 
@@ -59,12 +59,12 @@ public class Pessoa {
 ```java
 public class IMCStatus {
     double imc;
-    String classificacao;
+    String classification;
     
-    public IMCStatus(double imc, String classificacao) {
+    public IMCStatus(double imc, String classification) {
         this.imc = imc;
-        this.classificacao = classificacao;
+        this.classification = classification;
     }
-    //incluir getters
+    // include getters
 }
 ```
