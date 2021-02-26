@@ -4,7 +4,7 @@
   "description": "This repo will be used to organize exercises of the Computer Topics classes for the 6th period of the Systems and Analysis Development course.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest test"
   },
   "repository": {
     "type": "git",
