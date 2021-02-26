@@ -68,3 +68,6 @@ public class IMCStatus {
     // include getters
 }
 ```
+
+## Test result
+![Image of test result](assets/test-result.png "Running unit tests with jest")
