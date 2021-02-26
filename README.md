@@ -2,7 +2,9 @@
 
 This repo will be used to organize exercises and all the pratical content of the Computer Topics classes for the 6th period of the Systems and Analysis Development course.
 
-[NAP-02](https://github.com/tgwow/computer-topics/tree/master/NAP/02)
+# Exercises
+
+[EX-02](https://github.com/tgwow/computer-topics/tree/master/NAP/02) - Convert java code to node and implement unit tests using jest.
 
 # Discussion
 
