@@ -5,6 +5,7 @@ This repo will be used to organize exercises and all the pratical content of the
 # Exercises
 
 [EX-02](https://github.com/tgwow/computer-topics/tree/master/NAP/02) - Convert java code to node and implement unit tests using jest.
+[EX-03](https://github.com/tgwow/computer-topics/tree/master/NAP/03) - Add more unit test to NumFinder project.
 
 # Discussion
 
