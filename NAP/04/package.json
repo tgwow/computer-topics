@@ -1,14 +1,21 @@
 {
   "name": "tdd-exercise",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "Thiago Oliveira",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^26.6.3"
-  }
+    "jest": "^26.6.3",
+    "jest-matcher-deep-close-to": "^2.0.1"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "dependencies": {},
+  "keywords": [],
+  "description": ""
 }
