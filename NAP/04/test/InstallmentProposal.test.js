@@ -1,4 +1,7 @@
+const { toBeDeepCloseTo, toMatchCloseTo } = require('jest-matcher-deep-close-to');
 const InstallmentProposal = require('../lib/InstallmentProposal')
+
+expect.extend({ toBeDeepCloseTo, toMatchCloseTo });
 
 const ip = new InstallmentProposal();
 
@@ -12,14 +15,15 @@ describe('FinancingProposal tests', () => {
 		}
 		ip.generate(client1)
 		expect(ip.proposal.length).toBe(2);
-
-		expect(ip.proposal[0].installmentsQty).toBe(2);
-		expect(ip.proposal[0].total).toBeCloseTo(3000.00);
-		expect(ip.proposal[0].installmentsValue).toBeCloseTo(1500.00);
-
-		expect(ip.proposal[1].installmentsQty).toBe(3);
-		expect(ip.proposal[1].total).toBeCloseTo(3000.00);
-		expect(ip.proposal[1].installmentsValue).toBeCloseTo(1000.00);
-
+		expect(ip.proposal[0]).toMatchCloseTo({
+			installmentsQty: 2,
+			total: 3000.00,
+			installmentsValue: 1500.00
+		}, 2);
+		expect(ip.proposal[1]).toMatchCloseTo({
+			installmentsQty: 3,
+			total: 3000.00,
+			installmentsValue: 1000.00
+		}, 2);
 	})
 })
