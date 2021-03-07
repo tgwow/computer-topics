@@ -11,8 +11,14 @@ class InstallmentProposal {
 			installmentsValue: total / installmentsQty
 		}
 	}
-
-	generate ({salary, lending}) {
+	validate ({name, age, salary, lending}) {
+		if (!name) throw 'invalid name'
+		if (salary < 0.00) throw 'invalid salary'
+		if (age < 18 && age > 70) throw 'invalid age'
+		if (lending < 100 && lending > 100000.00) throw 'invalid lending'
+	}
+	generate ({salary, lending, ...rest}) {
+		this.validate({salary, lending, ...rest})
 		switch (true) {
 			case salary < 1000.00:
 				this.proposal[0] = this.calculate(2, 2, lending);
