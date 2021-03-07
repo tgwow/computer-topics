@@ -8,7 +8,7 @@ This repo will be used to organize exercises and all the pratical content of the
 
 [EX-03](https://github.com/tgwow/computer-topics/tree/master/NAP/03) - Add more unit test to NumFinder project.
 
-[EX-4](https://github.com/tgwow/computer-topics/tree/master/NAP/04) - Add solution for 04-Problema-TDD exercise using TDD design.
+[EX-04](https://github.com/tgwow/computer-topics/tree/master/NAP/04) - Add solution for 04-Problema-TDD exercise using TDD design.
 
 # Discussion
 
