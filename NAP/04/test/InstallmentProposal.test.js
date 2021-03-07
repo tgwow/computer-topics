@@ -45,5 +45,10 @@ describe('FinancingProposal tests', () => {
 			total: 4500.00,
 			installmentsValue: 1125.00
 		}, 2);
+		expect(ip.proposal[2]).toMatchCloseTo({
+			installmentsQty: 10,
+			total: 4500.00,
+			installmentsValue: 450.00
+		}, 2);
 	})
 })
