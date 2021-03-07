@@ -1,3 +1,5 @@
+const Schema = require('validate')
+
 class InstallmentProposal {
 	constructor () {
 		this.proposal = [];
@@ -11,8 +13,38 @@ class InstallmentProposal {
 			installmentsValue: total / installmentsQty
 		}
 	}
+	validate ({name, age, salary, lending}) {
+		const client = new Schema({
+			name: {
+				type: String,
+				required: true,
+			},
+			age: {
+				type: Number,
+				required: true,
+				size: { min: 18, max: 70 }
+			},
+			salary: {
+				type: Number,
+				required: true,
+				size: { min: 100.00 }
+			},
+			lending: {
+				type: Number,
+				required: true,
+				size: { max: 100000.00 }
+			}
+		})
+		const errors = client.validate({ name, age, salary, lending })
+		if (errors.length) throw 'invalid client'
 
-	generate ({salary, lending}) {
+		// if (!name) throw 'invalid name'
+		// if (salary < 0.00) throw 'invalid salary'
+		// if (age < 18 && age > 70) throw 'invalid age'
+		// if (lending < 100 && lending > 100000.00) throw 'invalid lending'
+	}
+	generate ({salary, lending, ...rest}) {
+		this.validate({salary, lending, ...rest})
 		switch (true) {
 			case salary < 1000.00:
 				this.proposal[0] = this.calculate(2, 2, lending);
