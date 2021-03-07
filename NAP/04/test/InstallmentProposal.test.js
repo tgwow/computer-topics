@@ -26,6 +26,7 @@ describe('FinancingProposal tests', () => {
 			installmentsValue: 1000.00
 		}, 2);
 	})
+
 	test('Should return correct proposal to salary between 1000.01 and 5000.00', () => {
 		const client2 = {
 			name: 'Bernando Batista',
@@ -42,6 +43,37 @@ describe('FinancingProposal tests', () => {
 		}, 2);
 		expect(ip.proposal[1]).toMatchCloseTo({
 			installmentsQty: 4,
+			total: 4500.00,
+			installmentsValue: 1125.00
+		}, 2);
+	})
+
+	test('Should return correct proposal to salary above than 5000.01', () => {
+		const client3 = {
+			name: 'Fernando Fernandez',
+			age: 58,
+			salary: 15500.00,
+			lending: 10000.00
+		}
+		ip.generate(client3)
+		expect(ip.proposal.length).toBe(3);
+		expect(ip.proposal[0]).toMatchCloseTo({
+			installmentsQty: 2,
+			total: 3900.00,
+			installmentsValue: 1950.00
+		}, 2);
+		expect(ip.proposal[1]).toMatchCloseTo({
+			installmentsQty: 4,
+			total: 4500.00,
+			installmentsValue: 1125.00
+		}, 2);
+		expect(ip.proposal[1]).toMatchCloseTo({
+			installmentsQty: 10,
+			total: 4500.00,
+			installmentsValue: 1125.00
+		}, 2);
+		expect(ip.proposal[1]).toMatchCloseTo({
+			installmentsQty: 20,
 			total: 4500.00,
 			installmentsValue: 1125.00
 		}, 2);
