@@ -23,6 +23,12 @@ class InstallmentProposal {
 				this.proposal[1] = this.calculate(1.5, 4, lending);
 				this.proposal[2] = this.calculate(1.5, 10, lending);
 				break
+			case (salary > 5000.01):
+				this.proposal[0] = this.calculate(1.1, 2, lending);
+				this.proposal[1] = this.calculate(1.3, 4, lending);
+				this.proposal[2] = this.calculate(1.3, 10, lending);
+				this.proposal[3] = this.calculate(1.4, 20, lending);
+				break
 			default: throw 'Unhandled proposal for this salary'
 		}
 	}
