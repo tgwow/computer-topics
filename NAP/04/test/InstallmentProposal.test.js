@@ -56,26 +56,26 @@ describe('FinancingProposal tests', () => {
 			lending: 10000.00
 		}
 		ip.generate(client3)
-		expect(ip.proposal.length).toBe(3);
+		expect(ip.proposal.length).toBe(4);
 		expect(ip.proposal[0]).toMatchCloseTo({
 			installmentsQty: 2,
-			total: 3900.00,
-			installmentsValue: 1950.00
+			total: 11000.00,
+			installmentsValue: 5500.00
 		}, 2);
 		expect(ip.proposal[1]).toMatchCloseTo({
 			installmentsQty: 4,
-			total: 4500.00,
-			installmentsValue: 1125.00
+			total: 13000.00,
+			installmentsValue: 3250.00
 		}, 2);
-		expect(ip.proposal[1]).toMatchCloseTo({
+		expect(ip.proposal[2]).toMatchCloseTo({
 			installmentsQty: 10,
-			total: 4500.00,
-			installmentsValue: 1125.00
+			total: 13000.00,
+			installmentsValue: 1300.00
 		}, 2);
-		expect(ip.proposal[1]).toMatchCloseTo({
+		expect(ip.proposal[3]).toMatchCloseTo({
 			installmentsQty: 20,
-			total: 4500.00,
-			installmentsValue: 1125.00
+			total: 14000.00,
+			installmentsValue: 700.00
 		}, 2);
 	})
 })
