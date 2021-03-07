@@ -83,4 +83,14 @@ describe('FinancingProposal tests', () => {
 			installmentsValue: 700.00
 		}, 2);
 	})
+
+	test('Should return an error when receive a invalid client', () => {
+		const client4 = {
+			name: 'Cleber Clóvis',
+			age: 100,
+			salary: -1200.00,
+			lending: 2500.00
+		}
+		expect(() => ip.generate(client4)).toThrow('Invalid client arguments')
+	})
 })
