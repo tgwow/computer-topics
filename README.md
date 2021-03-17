@@ -10,6 +10,8 @@ This repo will be used to organize exercises and all the pratical content of the
 
 [EX-04](https://github.com/tgwow/computer-topics/tree/master/NAP/04) - Add solution for 04-Problema-TDD exercise using TDD design.
 
+[EX-05](https://github.com/tgwow/computer-topics/tree/master/NAP/05) - Add tests using test coverage.
+
 # Discussion
 
 Feel free to open an issue or contact me to discuss any topic about the content of this repo.
