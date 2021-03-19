@@ -2,7 +2,12 @@
 
 This repo will be used to organize exercises and all the pratical content of the Computer Topics classes for the 6th period of the Systems and Analysis Development course.
 
+
 # Exercises
+
+We will go through several topics
+
+## Unit tests
 
 [EX-02](https://github.com/tgwow/computer-topics/tree/master/NAP/02) - Convert java code to node and implement unit tests using jest.
 
@@ -14,6 +19,9 @@ This repo will be used to organize exercises and all the pratical content of the
 
 [EX-06](https://github.com/tgwow/ci-example) - CI using Github Actions, Travis and coverage using Coveralls.
 
+## Functional Programming
+
+[EX-11](https://github.com/tgwow/computer-topics/tree/master/NAP/11) - Handle Arrays with High Order Functions
 
 
 # Discussion
