@@ -21,6 +21,8 @@ We will go through several topics
 
 ## Functional Programming
 
+[EX-10](https://github.com/tgwow/computer-topics/tree/master/NAP/10) - Functional Programming concepts in practice
+
 [EX-11](https://github.com/tgwow/computer-topics/tree/master/NAP/11) - Handle Arrays with High Order Functions
 
 
