@@ -19,12 +19,22 @@ We will go through several topics
 
 [EX-06](https://github.com/tgwow/ci-example) - CI using Github Actions, Travis and coverage using Coveralls.
 
+[EX-07](https://github.com/tgwow/salary-calculator) - CI using Github Actions, Travis and coverage using Coveralls.
+
+[EX-09](https://github.com/tgwow/cypress-exercise) - E2E tests using cypress.
+
+
 ## Functional Programming
 
-[EX-10](https://github.com/tgwow/computer-topics/tree/master/NAP/10) - Functional Programming concepts in practice
+[EX-10](https://github.com/tgwow/computer-topics/tree/master/NAP/10) - Functional Programming concepts in practice.
 
-[EX-11](https://github.com/tgwow/computer-topics/tree/master/NAP/11) - Handle Arrays with High Order Functions
+[EX-11](https://github.com/tgwow/computer-topics/tree/master/NAP/11) - Handle Arrays with High Order Functions.
 
+[EX-12](https://github.com/tgwow/computer-topics/tree/master/NAP/12) - Manipulate arrays with High Order Functions.
+
+[EX-13](https://github.com/tgwow/computer-topics/tree/master/NAP/13) - No side-effects, currying and function composition with Ramda.
+
+[EX-14](https://github.com/tgwow/computer-topics/tree/master/NAP/14) - Converting xml to objects and using functional programming to manipulate values.
 
 # Discussion
 
