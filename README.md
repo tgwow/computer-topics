@@ -19,6 +19,10 @@ We will go through several topics
 
 [EX-06](https://github.com/tgwow/ci-example) - CI using Github Actions, Travis and coverage using Coveralls.
 
+[EX-07](https://github.com/tgwow/salary-calculator) - CI using Github Actions, Travis and coverage using Coveralls.
+
+
+
 ## Functional Programming
 
 [EX-10](https://github.com/tgwow/computer-topics/tree/master/NAP/10) - Functional Programming concepts in practice
