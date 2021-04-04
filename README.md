@@ -36,6 +36,8 @@ We will go through several topics
 
 [EX-14](https://github.com/tgwow/computer-topics/tree/master/NAP/14) - Converting xml to objects and using functional programming to manipulate values.
 
+[EX-15](https://github.com/tgwow/computer-topics/tree/master/NAP/15) - Using currying concept with ramda
+
 # Discussion
 
 Feel free to open an issue or contact me to discuss any topic about the content of this repo.
