@@ -71,4 +71,4 @@ const compositeFunction = R.pipe(
 console.log(compositeFunction({ value: 2}))
 
 // Exercicio 5: use a função composta do Ex. 4 para transformar os números em 'arr'
-console.log(arr.map( (n) => compositeFunction( {value: n} )))
+console.log(arr.map( (n) => compositeFunction(mapToNumberObject(n))))
