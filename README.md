@@ -31,6 +31,8 @@ We will go through several topics
 
 [EX-11](https://github.com/tgwow/computer-topics/tree/master/NAP/11) - Handle Arrays with High Order Functions
 
+[EX-12](https://github.com/tgwow/computer-topics/tree/master/NAP/12) - Manipulate arrays with High Order Functions
+
 
 # Discussion
 
