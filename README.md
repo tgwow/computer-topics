@@ -33,6 +33,7 @@ We will go through several topics
 
 [EX-12](https://github.com/tgwow/computer-topics/tree/master/NAP/12) - Manipulate arrays with High Order Functions
 
+[EX-13](https://github.com/tgwow/computer-topics/tree/master/NAP/13) - No side-effects, currying and function composition with Ramda
 
 # Discussion
 
