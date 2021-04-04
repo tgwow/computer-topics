@@ -21,6 +21,8 @@ We will go through several topics
 
 [EX-07](https://github.com/tgwow/salary-calculator) - CI using Github Actions, Travis and coverage using Coveralls.
 
+[EX-07](https://github.com/tgwow/cypress-exercise) - E2E tests using cypress.
+
 
 
 ## Functional Programming
