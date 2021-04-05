@@ -38,6 +38,12 @@ We will go through several topics
 
 [EX-15](https://github.com/tgwow/computer-topics/tree/master/NAP/15) - Using currying concept with ramda
 
+## Event-drive Programming
+
+[EX-16](https://github.com/tgwow/computer-topics/tree/master/NAP/16) - Examples of using callbacks and promises.
+
+[EX-17](https://github.com/tgwow/computer-topics/tree/master/NAP/17) - Examples of using promises to make requests to a local server.
+
 # Discussion
 
 Feel free to open an issue or contact me to discuss any topic about the content of this repo.
