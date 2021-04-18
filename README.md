@@ -44,6 +44,8 @@ We will go through several topics
 
 [EX-17](https://github.com/tgwow/computer-topics/tree/master/NAP/17) - Examples of using promises to make requests to a local server.
 
+[EX-19](https://github.com/tgwow/computer-topics/tree/master/NAP/19) - setTimeout, nodemailer and node-persist examples
+
 # Discussion
 
 Feel free to open an issue or contact me to discuss any topic about the content of this repo.
