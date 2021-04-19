@@ -46,6 +46,8 @@ We will go through several topics
 
 [EX-19](https://github.com/tgwow/computer-topics/tree/master/NAP/19) - setTimeout, nodemailer and node-persist examples
 
+[EX-20](https://github.com/tgwow/computer-topics/tree/master/NAP/20) - Refactor exercise 17 to use node-persist
+
 # Discussion
 
 Feel free to open an issue or contact me to discuss any topic about the content of this repo.
