@@ -48,6 +48,8 @@ We will go through several topics
 
 [EX-20](https://github.com/tgwow/computer-topics/tree/master/NAP/20) - Refactor exercise 17 to use node-persist
 
+[EX-21](https://github.com/tgwow/computer-topics/tree/master/NAP/21) - Sending multiple mails asynchronous.
+
 # Discussion
 
 Feel free to open an issue or contact me to discuss any topic about the content of this repo.
